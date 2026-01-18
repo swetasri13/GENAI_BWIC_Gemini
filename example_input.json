@@ -1,0 +1,59 @@
+{
+  "bwic": {
+    "bond_cusip": "123456789",
+    "bond_name": "Apple Inc 3.5% 2030",
+    "size": 25.0,
+    "deadline": "2024-01-20T15:00:00",
+    "seller": "Large Asset Manager",
+    "bond_type": "Corporate"
+  },
+  "market": {
+    "curve_data": {
+      "2Y": 4.50,
+      "5Y": 4.25,
+      "10Y": 4.00,
+      "30Y": 4.15
+    },
+    "trace_data": {
+      "last_trade_price": 100.25,
+      "last_trade_size": 5.0,
+      "bid": 100.20,
+      "ask": 100.30,
+      "volume_30d": 150.0
+    },
+    "liquidity_metrics": {
+      "bid_ask_spread": 0.10,
+      "daily_volume": 10.0,
+      "days_to_cover": 2.5
+    },
+    "comparable_trades": [
+      {
+        "date": "2024-01-15",
+        "size": 20.0,
+        "price": 100.30,
+        "type": "BWIC"
+      }
+    ]
+  },
+  "valuation": {
+    "fair_value": 100.35,
+    "model_price": 100.32,
+    "market_price": 100.25,
+    "old_bwics": [
+      {
+        "date": "2024-01-15",
+        "size": 20.0,
+        "winning_bid": 100.28,
+        "fair_value_at_time": 100.30,
+        "number_of_bids": 8
+      }
+    ]
+  },
+  "constraints": {
+    "risk_appetite": "Medium",
+    "inventory_level": "Low",
+    "max_position_size": 30.0,
+    "target_hold_period": 5
+  }
+}
+
